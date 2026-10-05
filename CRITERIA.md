@@ -22,7 +22,7 @@ Published by DDCP Foundation Inc. Licensed under CC BY 4.0.
 | 12 | Authority allocation | Each retained authority is held by the agent the criterion requires: reserve co-signature independent of the issuer; upgrade authority under a time-delayed multisig or none, with member keys distinct from co-signer keys; a stated rule for replacing co-signer keys, including who can replace the issuer; metadata authorities under multi-party control once the currency carries value. No single agent holds authorities that together allow seizure, halting or dilution. | Your Keys, YOUR Money; On Honesty and the Long Game |
 | 13 | Accurate disclosure of capabilities | A published specification accurately stating which capabilities the issuer holds over the currency and under what conditions they may be used. | On Honesty and the Long Game |
 | 14 | Disclosure of mutability | The specification states which of the currency's properties were settled at issuance and which its issuer can still change. | On Honesty and the Long Game |
-| 15 | Known Limits against DDCP | The currency publishes a record of what it does not deliver against these criteria, each entry naming the criterion it answers to, accurate as examined. | On Honesty and the Long Game |
+| 15 | Known Limits against DDCP | The currency publishes a record of what it does not deliver against these criteria, each entry naming the criterion it answers to or stating that no criterion covers it, accurate as examined. | On Honesty and the Long Game |
 | 16 | Basics and payments | Divisible, portable, fungible, durable, counterfeit-proof; fast, low-cost and available at all hours. | Quality 1; Quality 2 |
 
 ## How the criteria are read
