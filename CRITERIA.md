@@ -9,7 +9,7 @@ Published by DDCP Foundation Inc. Licensed under CC BY 4.0.
 | # | Area | Criterion | Manifesto section |
 |---|---|---|---|
 | 1 | Control | No administrative key, freeze function or master key held by any issuer, government or intermediary over value held in self-custody. | Your Keys, YOUR Money |
-| 2 | Unconditionality | No spending restrictions, no expiry conditions, no behavioral conditions, and no general-purpose programmable logic deployable by third parties at the protocol layer. | On Unconditionality |
+| 2 | Unconditionality | No spending restrictions, no expiry conditions, no behavioral conditions, and no logic that executes on the currency's own transfers at the direction of anyone other than the parties to the transfer, whether the issuer or someone it appoints (on Token-2022, a Transfer Hook). Programs a holder chooses to send value to are not affected. | On Unconditionality |
 | 3 | Settlement | No single government can determine whether a transfer settles. | On Unconditionality |
 | 4 | Privacy: balance and amount | The balance held in an account and the amount of each transaction are concealed. Examined together with the fee configuration, because a fee decryption key can narrow amounts. | On Financial Privacy |
 | 5 | Privacy: sender and receiver | The identity of the initiating party and of the receiving party are concealed. | On Financial Privacy |
