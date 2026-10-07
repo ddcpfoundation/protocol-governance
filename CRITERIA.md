@@ -28,5 +28,6 @@ Published by DDCP Foundation Inc. Licensed under CC BY 4.0.
 ## How the criteria are read
 
 - Criteria 1 to 3 and 11 to 12 are examined on the mint, its program and the authorities each retains. Criteria 4 to 7 are examined on the mint's privacy configuration and its fee configuration together. Criteria 8 to 10 are examined on the currency's published specification and whatever attestation it names; the protocol does not enforce them. Criteria 13 to 16 are examined on the specification, the currency's Known Limits against DDCP, and the deployed instance.
+- A deployment that carries no value, such as the Foundation's devnet demonstration of the reference implementation, is examined as what it is: criteria that presuppose a currency carrying value (8, 9, 10, the upgrade arrangement in 11 and 12, and multi-party metadata control in 12) are recorded as not applicable to it, with the reason, rather than as not delivered.
 - The absence of an evaluation is neither an endorsement nor a judgment.
 - Changes to these criteria follow the protocol change policy.
