@@ -12,13 +12,13 @@ An evaluation examines one currency, on one chain, at one point in time, against
 - **Partly delivered.** Part of the criterion is met; the record states which part and what is missing.
 - **Not delivered.** The criterion is not met, or the issuer retains the capability to defeat it.
 
-No overall score, grade or badge is derived from the results. A currency that meets some criteria and not others is recorded as exactly that.
+No overall score, grade or badge is derived from the results. A currency that meets some criteria and not others is recorded as exactly that. A currency is evaluated against the criteria as published when it is examined, whichever version of the reference implementation it was built using.
 
 The reference implementation is examined as code at a named commit, as it would run in a deployment that carries value, with the Foundation's devnet demonstration as evidence of how it behaves. Where a criterion depends on choices the code leaves to whoever creates a mint, the result records what the code fixes and what it leaves open, including any choice it permits that would defeat the criterion.
 
 ## 2. Who evaluates
 
-The registry records the Foundation's own evaluations only. An issuer may submit a self-evaluation. The Foundation treats it as input to its own examination and may cite it, but it is not published as an entry in the registry, and its conclusions are not adopted without examination.
+The registry records the Foundation's own evaluations only, and is never used to press an issued currency to adopt a change to the protocol. An issuer may submit a self-evaluation. The Foundation treats it as input to its own examination and may cite it, but it is not published as an entry in the registry, and its conclusions are not adopted without examination.
 
 Each evaluation states any relationship between the Foundation, its directors, officers or funders and the issuer of the currency examined.
 
