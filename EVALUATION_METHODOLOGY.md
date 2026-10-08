@@ -67,7 +67,7 @@ Where one is published, the evaluation reads it as the issuer's own account, in 
 
 ## 9. Form of the record
 
-Each evaluation is one file in the `evaluations/` folder of this repository, dated and versioned. It names:
+Each evaluation is one file in the Foundation's evaluation registry, the repository `ddcpfoundation/conformance-evaluations`, dated and versioned. It names:
 
 - the currency, its issuer, the chain, the mint address and the program address;
 - for the reference implementation, instead, the commit examined and the devnet demonstration used as evidence;
@@ -93,7 +93,7 @@ A stale evaluation stays in the registry, marked with the date and reason, until
 
 ## 11. Corrections
 
-An error in a published evaluation is corrected by a dated addendum to the same file. The addendum states what was wrong, what the evidence shows and the corrected result; the original text is not rewritten. Anyone may report an error through the issues of this repository. The issuer of the currency examined is notified of any correction.
+An error in a published evaluation is corrected by a dated addendum to the same file. The addendum states what was wrong, what the evidence shows and the corrected result; the original text is not rewritten. Anyone may report an error through the issues of that repository. The issuer of the currency examined is notified of any correction.
 
 ## 12. Deferred
 
