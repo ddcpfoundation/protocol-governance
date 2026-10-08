@@ -20,9 +20,11 @@ The DDCP Manifesto states what the protocol will never introduce. No change cont
 
 A proposal containing any of these is closed with a reference to this section. The Foundation's maintainers do not have discretion over this list. Capability outside the conforming profile belongs in a fork maintained by the issuer that needs it, never in Foundation code.
 
-## 3. Changes touching a listed item or criterion
+## 3. Changes touching a listed item or a criterion
 
-A change that touches any item on the never-merge list, or any criterion in the DDCP conformance criteria (CRITERIA.md), requires a published rationale and the approval of the Foundation's board before it can be merged. The rationale is published in this repository before the board decides, and the decision is published with it.
+A change that touches any item on the never-merge list requires a published rationale and the approval of the Foundation's board before it can be merged. A change to the DDCP conformance criteria (CRITERIA.md) that would weaken what a criterion requires on any of those items is such a change. The rationale is published in this repository before the board decides, and the decision is published with it.
+
+Any other change to the conformance criteria is decided by the Foundation. Its rationale is published in this repository before the change takes effect, and the decision is published with it.
 
 ## 4. What a change applies to
 
