@@ -1,6 +1,6 @@
 # DDCP Conformance Criteria
 
-The criteria against which the DDCP conformance evaluation examines a currency. Each criterion is extracted from the DDCP Manifesto (v20260924-3) and names the Manifesto section it answers to. For each criterion, the evaluation records whether the currency delivers it, partly delivers it, or does not deliver it, with evidence. It is not a verdict on the currency as a whole.
+The criteria against which the DDCP conformance evaluation examines a currency. Each criterion is extracted from the DDCP Manifesto (v20260924-4) and names the Manifesto section it answers to. For each criterion, the evaluation records whether the currency delivers it, partly delivers it, or does not deliver it, with evidence. It is not a verdict on the currency as a whole.
 
 A capability an issuer can still acquire is examined as a capability the issuer holds. Privacy is examined together with the currency's fee configuration. Authority allocation is examined as a criterion of its own.
 
