@@ -14,19 +14,25 @@ An evaluation examines one currency, on one chain, at one point in time, against
 
 No overall score, grade or badge is derived from the results. A currency that meets some criteria and not others is recorded as exactly that.
 
+The reference implementation is examined as code at a named commit, as it would run in a deployment that carries value, with the Foundation's devnet demonstration as evidence of how it behaves. Where a criterion depends on choices the code leaves to whoever creates a mint, the result records what the code fixes and what it leaves open, including any choice it permits that would defeat the criterion.
+
 ## 2. Who evaluates
 
-The registry records the Foundation's own evaluations only. An issuer may submit a self-evaluation; the Foundation treats it as input to its own examination and may cite it, but it is not published as an entry in the registry and its conclusions are not adopted without examination.
+The registry records the Foundation's own evaluations only. An issuer may submit a self-evaluation. The Foundation treats it as input to its own examination and may cite it, but it is not published as an entry in the registry, and its conclusions are not adopted without examination.
 
-Each evaluation states any relationship between the Foundation, its directors or its funders and the issuer of the currency examined.
+Each evaluation states any relationship between the Foundation, its directors, officers or funders and the issuer of the currency examined.
 
 ## 3. The evidence standard
 
 A result rests on three kinds of evidence, each named in the record:
 
-1. **On-chain inspection of the mint.** The extensions it carries, every authority it retains and who holds each, the fee configuration and its ceilings, the program the mint depends on and that program's upgrade authority. Read live from the chain and recorded with the slot or date of reading.
-2. **Review of the deployed code.** The program backing the mint, verified against its published source by a reproducible build. Where the deployed program cannot be reproduced from published source, the record says so and no criterion that depends on the program's behavior is recorded as delivered.
-3. **The issuer's published documents.** The specification: the capabilities the issuer holds over the currency, the conditions under which it may use them, and which of the currency's properties were settled at issuance. The currency's Known Limits against DDCP: its own record of what it does not deliver against the criteria. Criteria that the protocol does not enforce, such as backing, reserve structure and reserve dispersion, are examined on the specification and on whatever attestation it names; the record states what was examined and what was taken on the issuer's statement.
+1. **On-chain inspection of the mint.**
+   - What is read: the extensions it carries, every authority it retains and who holds each, the fee configuration and its ceilings, the program the mint depends on, and that program's upgrade authority.
+   - How: read live from the chain and recorded with the slot or date of reading.
+2. **Review of the deployed code.** The program backing the mint is verified against its published source by a reproducible build. Where the deployed program cannot be reproduced from published source, the record says so, and no criterion that depends on the program's behavior is recorded as delivered.
+3. **The issuer's published specification.**
+   - It states the capabilities the issuer holds over the currency, the conditions under which it may use them, and which of the currency's properties were settled at issuance.
+   - Criteria that the protocol does not enforce (backing, reserve structure and reserve dispersion) are examined on the specification and on whatever attestation it names. The record states what was examined and what was taken on the issuer's statement.
 
 A development history is not evidence and is not required.
 
@@ -36,25 +42,35 @@ A criterion is examined when the Foundation has read the evidence named in secti
 
 ## 5. Capabilities and latent authority
 
-A capability the issuer can still acquire is a capability it holds. The specification and the mint are examined for latent authority as well as for configured capability: an authority set to none at the mint is examined for whether the program, its upgrade authority or any other party can reintroduce it. A criterion is recorded as delivered only when no party can defeat it without a change that the record identifies and whose own controls are disclosed.
+A capability the issuer can still acquire is a capability it holds. The specification and the mint are examined for latent authority as well as for configured capability. An authority set to none at the mint is examined for whether the program, its upgrade authority or any other party can reintroduce it. A criterion is recorded as delivered only when no party can defeat it without a change that the record identifies and whose own controls are disclosed.
 
 ## 6. Authority allocation
 
-Authority allocation (criterion 12) is examined as its own item. The record lists every authority the currency retains, who holds it, how it can be transferred or replaced, and whether any single agent holds a combination of authorities that together allow seizure, halting or dilution. The program's upgrade authority is examined with the fee ceilings and the mint rules it conditions, and the two are always disclosed together.
+Authority allocation (criterion 12) is examined as its own item. The record lists:
+
+- every authority the currency retains;
+- who holds it;
+- how it can be transferred or replaced;
+- whether any single agent holds a combination of authorities that together allow seizure, halting or dilution.
+
+The program's upgrade authority is examined with the fee ceilings and the mint rules it conditions, and the two are always disclosed together.
 
 ## 7. Privacy and fees
 
 Criteria 4 to 6 are examined together with the currency's fee configuration. Where a currency charges a transfer fee, the record states the fee rate and ceilings and the band to which the withheld-fee decryption key narrows confidential amounts. This is recorded as visibility, as a fact about the configuration.
 
-## 8. Known Limits against DDCP
+## 8. A currency's Known Limits against DDCP
 
-Criterion 15 is examined by comparing the currency's Known Limits against DDCP with the results recorded for every other criterion. The record states whether each limit the evaluation finds is disclosed in the currency's own record, and whether that record claims any limit the evaluation does not find. The currency's record is evidence for criterion 15 only; no other criterion is examined against it.
+The Foundation recommends that every currency publish its own Known Limits against DDCP: a record, organized by the conformance criteria, of what it does not deliver. It is not a criterion, and no result depends on whether a currency publishes one.
+
+Where one is published, the evaluation reads it as the issuer's own account, in the same way as a self-evaluation under section 2. The record states where its results differ from it.
 
 ## 9. Form of the record
 
-Each evaluation is one file in the `evaluations/` folder of this repository, dated and versioned, and names:
+Each evaluation is one file in the `evaluations/` folder of this repository, dated and versioned. It names:
 
 - the currency, its issuer, the chain, the mint address and the program address;
+- for the reference implementation, instead, the commit examined and the devnet demonstration used as evidence;
 - where the currency is built using the reference implementation, the commit of the reference it was built using;
 - the date and slot of the on-chain reading;
 - the result and evidence for every criterion;
@@ -77,7 +93,7 @@ A stale evaluation stays in the registry, marked with the date and reason, until
 
 ## 11. Corrections
 
-An error in a published evaluation is corrected by a dated addendum to the same file that states what was wrong, what the evidence shows and the corrected result. The original text is not rewritten. Anyone may report an error through the issues of this repository; the issuer of the currency examined is notified of any correction.
+An error in a published evaluation is corrected by a dated addendum to the same file. The addendum states what was wrong, what the evidence shows and the corrected result; the original text is not rewritten. Anyone may report an error through the issues of this repository. The issuer of the currency examined is notified of any correction.
 
 ## 12. Deferred
 

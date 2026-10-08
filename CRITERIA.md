@@ -1,6 +1,6 @@
 # DDCP Conformance Criteria
 
-The criteria against which the DDCP conformance evaluation examines a currency. Each criterion is extracted from the DDCP Manifesto (v20260924-3) and names the Manifesto section it answers to. The evaluation records, per criterion, whether the currency delivers it, partly delivers it, or does not deliver it, with evidence. It is not a verdict on the currency as a whole.
+The criteria against which the DDCP conformance evaluation examines a currency. Each criterion is extracted from the DDCP Manifesto (v20260924-3) and names the Manifesto section it answers to. For each criterion, the evaluation records whether the currency delivers it, partly delivers it, or does not deliver it, with evidence. It is not a verdict on the currency as a whole.
 
 A capability an issuer can still acquire is examined as a capability the issuer holds. Privacy is examined together with the currency's fee configuration. Authority allocation is examined as a criterion of its own.
 
@@ -22,12 +22,15 @@ Published by DDCP Foundation Inc. Licensed under CC BY 4.0.
 | 12 | Authority allocation | Each retained authority is held by the agent the criterion requires: reserve co-signature independent of the issuer; upgrade authority under a time-delayed multisig or none, with member keys distinct from co-signer keys; a stated rule for replacing co-signer keys, including who can replace the issuer; metadata authorities under multi-party control once the currency carries value. No single agent holds authorities that together allow seizure, halting or dilution. | Your Keys, YOUR Money; On Honesty and the Long Game |
 | 13 | Accurate disclosure of capabilities | A published specification accurately stating which capabilities the issuer holds over the currency and under what conditions they may be used. | On Honesty and the Long Game |
 | 14 | Disclosure of mutability | The specification states which of the currency's properties were settled at issuance and which its issuer can still change. | On Honesty and the Long Game |
-| 15 | Known Limits against DDCP | The currency publishes a record of what it does not deliver against these criteria, each entry naming the criterion it answers to or stating that no criterion covers it, accurate as examined. | On Honesty and the Long Game |
-| 16 | Basics and payments | Divisible, portable, fungible, durable, counterfeit-proof; fast, low-cost and available at all hours. | Quality 1; Quality 2 |
+| 15 | Basics and payments | Divisible, portable, fungible, durable, counterfeit-proof; fast, low-cost and available at all hours. | Quality 1; Quality 2 |
 
 ## How the criteria are read
 
-- Criteria 1 to 3 and 11 to 12 are examined on the mint, its program and the authorities each retains. Criteria 4 to 7 are examined on the mint's privacy configuration and its fee configuration together. Criteria 8 to 10 are examined on the currency's published specification and whatever attestation it names; the protocol does not enforce them. Criteria 13 to 16 are examined on the specification, the currency's Known Limits against DDCP, and the deployed instance.
-- A deployment that carries no value, such as the Foundation's devnet demonstration of the reference implementation, is examined as what it is: criteria that presuppose a currency carrying value (8, 9, 10, the upgrade arrangement in 11 and 12, and multi-party metadata control in 12) are recorded as not applicable to it, with the reason, rather than as not delivered.
+- Where each group of criteria is examined:
+  - Criteria 1 to 3, 11 and 12: on the mint, its program and the authorities each retains.
+  - Criteria 4 to 7: on the mint's privacy configuration and its fee configuration together.
+  - Criteria 8 to 10: on the currency's published specification and whatever attestation it names; the protocol does not enforce them.
+  - Criteria 13 to 15: on the specification and the deployed instance.
+- The Foundation recommends that every currency publish its own Known Limits against DDCP, a record organized by these criteria of what it does not deliver. It is not a criterion; see the evaluation methodology.
 - The absence of an evaluation is neither an endorsement nor a judgment.
 - Changes to these criteria follow the protocol change policy.

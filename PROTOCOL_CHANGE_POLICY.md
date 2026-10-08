@@ -31,10 +31,11 @@ A change to the protocol governs the reference implementation and what is built 
 - No board decision and no community process is represented as the consent of the people holding an existing currency. No one is entitled to consent on their behalf.
 - The DDCP conformance evaluation registry is never used to press an issued currency to adopt a change.
 - A currency built using an earlier version of the reference is evaluated against the conformance criteria as published when it is examined, and its specification states which of its properties were settled at issuance.
+- A defect found in a version of the reference implementation is disclosed in a security advisory and in the release note of the version that corrects it, naming the versions affected. Where the defect bears on a conformance criterion, the reference implementation's Known Limits against DDCP records it under that criterion. The disclosure states the migration path open to a currency whose program can no longer be upgraded: a new mint on the corrected version, with holders moved by that currency's issuer through redemption and reissue. Mints on a defective version are never moved by anyone else.
 
 ## 5. Ordinary changes
 
-Changes that touch no listed item or criterion, such as corrections, documentation, tests, build tooling and dependency updates, are merged by the maintainers after review. Where a change alters what the reference implementation does, the Known Limits against DDCP and the specification are updated in the same change.
+Changes that touch no listed item or criterion are merged by the maintainers after review. These include corrections, documentation, tests, build tooling and dependency updates. Where a change alters what the reference implementation does, the Known Limits against DDCP and the specification are updated in the same change.
 
 ## 6. Amendments to this policy
 
