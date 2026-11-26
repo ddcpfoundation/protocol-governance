@@ -22,15 +22,15 @@ A proposal containing any of these is closed with a reference to this section. T
 
 ## 3. Changes touching the never-merge list or a criterion
 
-A change that touches any item on the never-merge list requires a published rationale and the approval of the Foundation's board before it takes effect. This includes a change to the list itself, and a change to the DDCP conformance criteria (CRITERIA.md) that would weaken what a criterion requires on any of those items. The rationale is published in this repository before the board decides, and the decision is published with it.
+A change that touches any item on the never-merge list requires a published rationale and the approval of the Foundation's board before it takes effect. This includes a change to the list itself, and a change to the DDCP Evaluation Criteria (CRITERIA.md) that would weaken what a criterion requires on any of those items. The rationale is published in this repository before the board decides, and the decision is published with it.
 
-Any other change to the conformance criteria, and any change to this policy outside section 2, is decided by the Foundation. Its rationale is published in this repository before the change takes effect, and the decision is published with it.
+Any other change to the DDCP Evaluation Criteria, and any change to this policy outside section 2, is decided by the Foundation. Its rationale is published in this repository before the change takes effect, and the decision is published with it.
 
 ## 4. What a change reaches
 
 A change to the protocol governs the reference implementation and what is built using it afterward. It cannot reach a currency already issued: each currency runs its own deployment of the program, under its own upgrade arrangement.
 
-A defect found in a version of the reference implementation is disclosed in a security advisory and in the release note of the version that corrects it, naming the versions affected. Where the defect bears on a conformance criterion, the reference implementation's Known Limits against DDCP records it under that criterion. The disclosure states the migration path open to a currency whose program can no longer be upgraded: a new mint on the corrected version, with holders moved by that currency's issuer through redemption and reissue. Mints on a defective version are never moved by anyone else.
+A defect found in a version of the reference implementation is disclosed in a security advisory and in the release note of the version that corrects it, naming the versions affected. Where the defect bears on a criterion of the DDCP Evaluation Criteria, the reference implementation's Known Limits against DDCP records it under that criterion. The disclosure states the migration path open to a currency whose program can no longer be upgraded: a new mint on the corrected version, with holders moved by that currency's issuer through redemption and reissue. Mints on a defective version are never moved by anyone else.
 
 ## 5. Ordinary changes
 
