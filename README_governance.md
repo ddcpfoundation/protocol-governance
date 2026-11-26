@@ -13,7 +13,7 @@ It holds no code and governs no currency. A currency built using the protocol is
 | [EVALUATION_METHODOLOGY.md](EVALUATION_METHODOLOGY.md) | The DDCP Evaluation Methodology: how the Foundation examines a currency, or an implementation as code, against the criteria and publishes the result. |
 | [PROTOCOL_CHANGE_POLICY.md](PROTOCOL_CHANGE_POLICY.md) | How the protocol and its reference implementation may change, what can never be merged, and why no change ever applies to a currency already issued. |
 | [TRADEMARK_USAGE_POLICY.md](TRADEMARK_USAGE_POLICY.md) | How the DDCP name may be used, including the provenance statements a currency may make. |
-| [rationale/](rationale/) | The rationale and decision for each change to the criteria or to the protocol change policy, published before the change takes effect (PROTOCOL_CHANGE_POLICY.md, section 3), with the old-to-new numbering where criteria are renumbered. |
+| [criteria-v20261126-1.md](criteria-v20261126-1.md) | The rationale and decision for the change to the criteria and to the protocol change policy of November 26, 2026, published before the change takes effect (PROTOCOL_CHANGE_POLICY.md, section 3), with the old-to-new numbering where criteria are renumbered. |
 
 ## Related repositories
 
